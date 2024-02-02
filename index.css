@@ -1,0 +1,123 @@
+body{
+   
+    background-color: rgb(119, 184, 244,.3);
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin:auto;
+}
+.headc{
+    letter-spacing: 1px;
+    background-color: rgb(223, 255, 175);
+    border-radius: 15px;
+    font-weight: 200;
+    height: 90px;
+    width: 240px;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-transform: uppercase;
+    padding:5px 0px 5px 50px;
+    
+}
+.stc{
+    background-color: rgb(162, 159, 239);
+    border-radius: 15px;
+    margin:0px 100px;
+    display:flex;
+    flex-direction:row;
+    padding:30px 30px;
+    justify-content:space-around;
+}
+.stlistc{
+    border-radius: 15px;
+    background-color:rgb(94, 242, 242);
+    font-size: 30px;
+    padding: 10px;
+    height: 300px;
+    width:300px;
+    margin:20px 0px 20px 100px;
+}
+.stinfoc{
+    border-radius: 30px;
+    background-color: rgb(177, 250, 134);
+    padding: 10px;
+    /* height: 300px; */
+  max-height:auto;
+    width:600px;
+    display:flex;
+    flex-direction:row;
+    
+/* text-overflow:hidden; */
+    margin: 20px 100px 20px 0px;  
+}
+.stinfotwo{
+    margin-top:50px;
+}
+.stinfoone,.stinfotwo{
+    /* border:1px solid black; */
+}
+img.defimg{
+    /* border-radius: 15px; */
+    height:200px;
+    width:200px;
+}
+.stinfoone{
+text-align: justify;
+/* margin:auto; */
+}
+@media screen and (max-width:800px) {
+    .stc{
+        flex-direction:column;
+        margin:0px;
+        padding:0px;
+    }
+    .stinfoc{
+      flex-direction:column;
+    }
+    .stlistc{
+        margin: auto;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .stinfoc{
+        margin:auto;
+    }
+    .stinfotwo{
+        margin:auto;
+    }
+    
+  }
+  @media (min-width:1000px) and (max-width:1024px){
+    .stlistc{
+        margin:auto;
+    }
+    .stinfoc{
+        margin:auto;
+        margin-left:20px;
+    }
+  }
+  @media(max-width:768px){
+    .stlistc,.stinfoc{
+    }
+  }
+  @media(max-width:480px){
+    .stlistc,.stinfoc{
+        width:360px;
+    }
+  }
+  
+  @media(max-width:380px){
+    .stlistc,.stinfoc{
+        width:310px;
+    }
+  }
+  @media(max-width:320px){
+    .stlistc,.stinfoc{
+        width:260px;
+    }
+    /* .stinfotwo{
+        margin-top:50px;
+    } */
+  }
